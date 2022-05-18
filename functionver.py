@@ -1,3 +1,5 @@
+#add from main import findpass in the beging of your other file for it to work
+#Then do findpass("a") with a being your password or you can substitute it out
 import random  
 import string
 import time
