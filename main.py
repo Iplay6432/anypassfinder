@@ -7,7 +7,7 @@ guess = ""
 tries = 0
 attempts = []
 def specific_string(length):  
-    sample_string = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890' # define the specific string  
+    sample_string = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890' # define the specific letters it comes from
     # define the condition for random string  
     global result
     result = ''.join((random.choice(sample_string)) for x in range(length))
